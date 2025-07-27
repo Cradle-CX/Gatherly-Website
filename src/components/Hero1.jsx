@@ -12,7 +12,7 @@ const Hero1 = () => {
           deals on Gatherly
         </h1>
 
-        <button className="btn bg-[#3A4155] text-white rounded-[12px] px-6 py-3 text-sm font-medium">
+        <button className="btn bg-[#3A4155] text-white h-12 rounded-[12px] px-6 py-3 text-sm font-medium">
           Join as a partner
         </button>
       </div>
