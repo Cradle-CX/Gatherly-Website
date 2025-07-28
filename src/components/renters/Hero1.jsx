@@ -18,19 +18,19 @@ const HeroSection = () => {
   return (
     <div className="relative bg-[#7690E4] text-white px-0 py-32 text-center overflow-hidden">
 
-      <img src={icon1} className="absolute top-[35%] left-[1%] w-6 opacity-30 w-8" alt="icon1" />
-      <img src={icon11} className="absolute top-[20%] left-[18%] w-6 opacity-30  w-8" alt="icon11" />
-      <img src={icon2} className="absolute top-[5%] left-[47.5%] w-7 opacity-30  w-8" alt="icon2" />
-      <img src={icon3} className="absolute top-[10%] right-[20%] w-6 opacity-30  w-8" alt="icon3" />
-      <img src={icon4} className="absolute top-[20%] right-[6%] w-6 opacity-30  w-8" alt="icon4" />
-      <img src={icon12} className="absolute top-[40%] right-[20%] w-6 opacity-30  w-8" alt="icon12" />
+      <img src={icon1} className="absolute top-[35%] left-[1%]  opacity-90 w-10" alt="icon1" />
+      <img src={icon2} className="absolute top-[20%] left-[18%]  opacity-80  w-10" alt="icon11" />
+      <img src={icon6} className="absolute top-[5%] left-[36%]  opacity-100  w-10" alt="icon2" />
+      <img src={icon8} className="absolute top-[8%] right-[30%]  opacity-100  w-10" alt="icon3" />
+      <img src={icon11} className="absolute top-[20%] right-[6%]  opacity-80  w-10" alt="icon4" />
+      <img src={icon3} className="absolute top-[55%] right-[0%]  opacity-80  w-10" alt="icon12" />
 
-      <img src={icon10} className="absolute top-[40%] left-[32%] w-6 opacity-30  w-8" alt="icon10" />
-      <img src={icon9} className="absolute bottom-[26%] left-[20%] w-6 opacity-30  w-8" alt="icon9" />
-      <img src={icon8} className="absolute bottom-[15%] left-[35%] w-6 opacity-30  w-8" alt="icon8" />
-      <img src={icon7} className="absolute bottom-[12%] right-[28%] w-6 opacity-30  w-8" alt="icon7" />
-      <img src={icon6} className="absolute bottom-[22%] right-[18%] w-6 opacity-30  w-8" alt="icon6" />
-      <img src={icon5} className="absolute top-[45%] right-[30%] w-6 opacity-30  w-8" alt="icon5" />
+      <img src={icon4} className="absolute top-[40%] left-[32%]  opacity-100  w-10" alt="icon10" />
+      <img src={icon3} className="absolute bottom-[26%] left-[20%]  opacity-90  w-10" alt="icon9" />
+      <img src={icon5} className="absolute bottom-[13%] left-[35%]  opacity-100  w-10" alt="icon8" />
+      <img src={icon7} className="absolute bottom-[12%] right-[34%]  opacity-100  w-10" alt="icon7" />
+      <img src={icon10} className="absolute bottom-[22%] right-[18%]  opacity-80  w-10" alt="icon6" />
+      <img src={icon9} className="absolute top-[45%] right-[30%] opacity-100  w-10" alt="icon5" />
 
       {/* Text and Button */}
       <h1 className="text-4xl md:text-5xl crimson font-bold mb-6 leading-tight">
