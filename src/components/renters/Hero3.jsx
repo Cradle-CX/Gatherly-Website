@@ -10,7 +10,7 @@ import tags from '../../assets/renters/tags.png'
 
 const PropertyFeatureSection = () => {
   return (
-    <section className="bg-[#7690E4] text-white w-full py-20 px-4 md:px-12">
+    <section className="bg-[#7690E4]  text-white w-full py-20 px-4 md:px-12">
       {/* Section Header */}
       <div className="text-center mb-32">
         <h2 className="text-3xl md:text-5xl font-semibold crimson leading-tight">
@@ -67,7 +67,7 @@ const PropertyFeatureSection = () => {
             </div>
           </div>
           {/* Cashback */}
-          <div className="bg-[#23263B] rounded-[2rem] p-6 relative min-h-[240px] max-w-[500px] w-[440]">
+          <div className="bg-[#23263B] mb-40 rounded-[2rem] p-6 relative min-h-[240px] max-w-[500px] w-[440]">
             <div className="text-white w-10 text-4xl mb-0">
               <img src={tags} />
             </div>
