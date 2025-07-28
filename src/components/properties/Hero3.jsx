@@ -1,7 +1,7 @@
 import React from 'react';
-import perkImage from '../assets/perkImage.png';
-import cashbackImage from '../assets/cashBack.png';
-import bonusImage from '../assets/bonus.png';
+import perkImage from '../../assets/perkImage.png';
+import cashbackImage from '../../assets/cashBack.png';
+import bonusImage from '../../assets/bonus.png';
 
 const Hero3 = () => {
   return (

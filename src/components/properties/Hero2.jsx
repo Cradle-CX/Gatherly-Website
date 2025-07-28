@@ -1,4 +1,4 @@
-import phoneMockup from '../assets/PhoneMockup.png';
+import phoneMockup from '../../assets/PhoneMockup.png';
 
 
 

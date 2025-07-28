@@ -1,6 +1,6 @@
 import React from 'react';
-import footerLogo from '../assets/footerLogo.png';
-import appStoreBadge from '../assets/app-store-badge.png';
+import footerLogo from '../../assets/footerLogo.png';
+import appStoreBadge from '../../assets/app-store-badge.png';
 import { FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
