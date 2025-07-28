@@ -12,7 +12,6 @@ import icon8 from '../../assets/renters/bg8.png'  // heart-hand bottom center-le
 import icon9 from '../../assets/renters/bg9.png'  // pencil bottom left
 import icon10 from '../../assets/renters/bg10.png' // stars box center-left
 import icon11 from '../../assets/renters/bg11.png' // hand top left (slightly lower)
-import icon12 from '../../assets/renters/bg12.png' // binoculars center-right
 
 const HeroSection = () => {
   return (
