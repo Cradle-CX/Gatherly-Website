@@ -47,9 +47,10 @@ const Footer = () => {
         {/* Right: Links */}
         <div className="flex gap-4 justify-center font-700 font-bold text-[18px]">
 
-          <a href="#">Terms of use</a>
-          <a href="#">Get in touch</a>
-          <a href="#">Privacy Policy</a>
+          <Link to='/terms'> <a href="#">Terms of use</a> </Link>
+          <Link to='/'> <a href="#">Get in touch</a> </Link>
+          <Link to='/privacy'> <a href="#">Privacy Policy</a> </Link>
+
         </div>
       </div>
     </footer>

@@ -6,8 +6,9 @@ const Header = () => {
   return (
     <header className="bg-[#F1F4FC] px-6 py-4 flex justify-between mb-100 items-center">
       <div className="flex items-center space-x-2">
-        <img src={logo} className='w-36' />
-
+        <Link to="/">
+          <img src={logo} className='w-36' />
+        </Link>
       </div>
 
       <button className="btn btn-ghost bg-white text-[#3A4155] rounded-lg">Join as a partner</button>
