@@ -36,10 +36,10 @@ const HeroSection = () => {
       <h1 className="text-4xl md:text-5xl crimson font-bold mb-6 leading-tight">
         Rent<br />smarter,<br />together
       </h1>
-
-      <button className="btn bg-[#3A4155] text-white mt-20 px-10 py-2 h-20 rounded text-[16px] hover:scale-105 transition duration-300">
+      <button className="btn bg-[#3A4155] text-white mt-20 px-10 py-2 h-20 rounded-[30px] text-[16px] hover:scale-105 transition duration-300">
         Get Gatherly
       </button>
+
     </div>
   )
 }
