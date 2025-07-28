@@ -10,7 +10,7 @@ import tags from '../../assets/renters/tags.png'
 
 const PropertyFeatureSection = () => {
   return (
-    <section className="bg-[#7B97EA] text-white w-full py-20 px-4 md:px-12">
+    <section className="bg-[#7690E4] text-white w-full py-20 px-4 md:px-12">
       {/* Section Header */}
       <div className="text-center mb-32">
         <h2 className="text-3xl md:text-5xl font-semibold crimson leading-tight">
