@@ -1,5 +1,5 @@
 import logo from '../assets/logos/gatherly-logo-with-text.png';
-
+import { Link } from "react-router-dom";
 import terms from '../assets/renters/TermsAndConditions.png'
 import footerLogo from '../assets/footerLogo.png';
 import appStoreBadge from '../assets/app-store-badge.png';
@@ -66,12 +66,12 @@ const TermsAndConditions = () => {
           {/* Right: Links */}
           <div className="flex gap-4 justify-center font-700 font-bold text-[18px]">
 
-            <a href="#">Terms of use</a>
-            <a href="#">Get in touch</a>
-            <a href="#">Privacy Policy</a>
+            <Link to="/terms"><a href="#">Terms of use</a> </Link>
+            <Link> <a href="#">Get in touch</a> </Link>
+            <Link to="/privacy"> <a href="#">Privacy Policy</a> </Link>
           </div>
-        </div>
-      </footer>
+        </div >
+      </footer >
 
     </>
 
